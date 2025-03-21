@@ -59,7 +59,7 @@ Follow the steps below to set up and deploy the website:
 
 This website is deployed and accessible via CloudFront and S3. The website is live at the following URL:
 
-- CloudFront URL: `https://d123xyz.cloudfront.net`
+- CloudFront URL: https://d1z96k1wrqfld6.cloudfront.net
 
 ### Accessing the Website
 
