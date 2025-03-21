@@ -52,4 +52,28 @@ Follow the steps below to set up and deploy the website:
     - Your website should now be live!
 
 ## Project Structure
+/Static-Website-Project ├── index.html # Main webpage (HTML) ├── style.css # Stylesheet for the website ├── script.js # JavaScript (optional) └── README.md # Project documentation
+
+
+## Deployment
+
+This website is deployed and accessible via CloudFront and S3. The website is live at the following URL:
+
+- CloudFront URL: `https://d123xyz.cloudfront.net`
+
+### Accessing the Website
+
+Once the CloudFront distribution is deployed, you can access the website through the CloudFront URL provided in the CloudFront management console. You can also set up a custom domain for the website.
+
+## Troubleshooting
+
+- If you encounter a **403 Access Denied** error, ensure that:
+  - The CloudFront distribution has the correct permissions to access the S3 bucket.
+  - The S3 bucket policy allows access from the CloudFront Origin Access Identity (OAI).
+  - CORS is configured correctly in the S3 bucket.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
